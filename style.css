@@ -246,3 +246,26 @@ nav i{
     font-size: 1vw;
 
 }
+
+@media screen and (max-width: 768px) {
+  nav a, nav i {
+    font-size: 4vw;
+  }
+
+  .one h1 {
+    font-size: 20vw;
+  }
+
+  .cards {
+    width: 80vw;
+    height: auto;
+  }
+
+  .rght-side h1 {
+    font-size: 8vw;
+  }
+
+  .rght-side p {
+    font-size: 4vw;
+  }
+}
