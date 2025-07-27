@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+}   
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: orangered;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    z-index: 69;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 10vw;
+}
+nav #logo{
+    width: 4vw;
+}
+nav a,i{
+    text-decoration: none;
+    font-size: 1vw;
+    font-weight: 400;
+    color: #fff;
+}
+
+.cntr-nav{
+    display: flex;
+    gap: 3vw;
+}
+nav i{
+    font-size: 1.5vw;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(150deg,rgb(233, 131, 7),rgb(225, 51, 16));
+}
+
+.one h1{
+    font-size:25vw;
+    color: #fff;
+    /* z-index: 2; */
+}
+#fantalogo{
+    width: 40%;   
+    z-index: 2;
+}
+
+#orange2{
+    position: absolute;
+    width: 15%;
+    top: 8%;
+    left: 32%;
+    z-index: 1;
+}
+
+#orangefruits{
+    width: 20%;
+    position: absolute;
+    z-index: 3;
+    top: 55%;
+    right: 30%;
+}
+
+#fantaname{
+    position: absolute;
+}
+#leaf{ 
+    /* Left Leaf around the F icon */
+    position: absolute;
+    width: 15%;
+    left: 0%;
+    top: 12%;
+    transform: rotate(280deg);
+    z-index: 1;
+}
+
+/* #greenLeaf{
+    width: 20%;
+    position: absolute;
+    top: 65%;
+    left: 65%;
+    transform: rotate(100deg);
+} */
+
+#leaf2{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 14%;
+}
+.two{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: #4a1717;
+}
+
+.lft-side, .rght-side{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+
+.lft-side svg{ 
+    margin-top:50vh;
+    transform: rotate(180deg);
+    width: 90%;
+}
+
+.rght-side h1{
+    color: #fff;
+    font-size: 5vw;
+}
+
+.rght-side p{
+    font-size: 1.2vw;
+    color: #fff;
+    width: 80%;
+}
+
+.three{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(150deg,rgb(210, 163, 104),rgb(182, 55, 30));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    position: relative;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 25vw;
+    height: 70vh;
+    margin-top: 10vh;
+    border-radius: 20px;
+    background-color: #fff;
+    gap: 2vh;    
+}
+
+.cards h1{
+    margin-top: 40vh;
+    font-size: 3vw;
+}
+
+.cards button{
+    font-size: 1vw;
+    border: none;
+    background: rgb(255, 155, 16);
+    border-radius: 50px;
+    padding: 1vw;
+    color: #fff;
+    cursor: pointer;
+}
+
+#coca-cola{
+    top: 10%;
+    width: 22%;
+    position: absolute;
+}
+
+#Sprite{
+    top: 14%;
+    width: 25%;
+    position: absolute;
+
+}
+
+.lemon{
+    top: 0;
+    width: 25vw;
+    position: absolute ;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactBox{
+    width: 40%;
+    border-radius: 12px;
+    flex-direction: column;
+    /* top: 35%; */
+    height: 80vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inputField{
+    border-radius: 12px;
+    width: 80%;
+    color: #000000;
+    font-size: 1vw;
+    height: 10vh;
+    background-color: #5339256b;
+    /* display: flex;
+    vertical-align: top; */
+    vertical-align: top;
+}
+
+.SubButton{
+    margin-top: 1vw;
+    padding: 1vw 1.5vw;
+    font-size: 1vw;
+
+}
